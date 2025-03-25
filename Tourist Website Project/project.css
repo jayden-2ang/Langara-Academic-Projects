@@ -1,0 +1,233 @@
+h1 {font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-color: lightskyblue;
+}
+
+nav {text-align: center;
+    font-size: 1.5em;
+    background-color: lightskyblue;
+}
+
+nav ul{list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    font-size: 1.25em;
+}
+
+nav li {padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    border-bottom: solid 1px;
+}
+
+nav a {text-decoration: none;
+}
+
+h2 {font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.5em;
+    text-align: center;
+    padding: 5px;
+}
+
+dl dt{font-weight: bold;
+    color: white;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+dl dd{color: white;
+    font-size: 1.3em;
+}
+
+body {background-color: seagreen;
+}
+
+h3 {font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 5px;
+}
+
+details summary{
+    font-size: 25px;
+    text-align: center;
+}
+
+details p{
+    text-align: center;
+}
+
+p {font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    font-size: 1.3em;
+}
+
+footer {font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    text-align: center;
+    font-style: italic;
+    background-color: lightblue;
+}
+
+.fotorama img {height: 300px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fotorama{height: 300px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: 100% 100%;
+}
+
+img{background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 300px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-left: 50px;
+}
+#steveston {background-image: url(images/vancouver.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 300px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#grouse {background-image: url(images/grouse.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 350px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#whistler {background-image: url(images/whistler.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 450px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#granville {background-image: url(images/granville.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 450px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#stanley {background-image: url(images/stanley.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 450px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#central {background-image: url(images/central.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 450px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form label{color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+@media(min-width: 1024px){
+    #vancouver {background-image: url(images/vancouver_bridge.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 600px;
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #steveston {background-image: url(images/fisherman_wharf.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 600px;
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #grouse {background-image: url(images/grouse.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 600px;
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #whistler {background-image: url(images/whistler.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 600px;
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #granville {background-image: url(images/granville.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 600px;
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #stanley {background-image: url(images/stanley.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 600px;
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #central {background-image: url(images/central.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 600px;
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .fotorama{height: 600px;
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: 100% 100%;
+    }
+}

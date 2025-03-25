@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Vancouver</title>
+    <link rel="stylesheet" href="project.css">
+    <meta name="description" content="Use this contact us form to tell us about how we can improve or if you have any further questions.">
+</head>
+<body>
+    <h1>Vancouver</h1>
+    <nav>
+        <ul>
+            <li><a href="project.html">Home</a></li>
+            <li><a href="tourism.html">Tourism</a></li>
+            <li><a href="cuisine.html">Cuisine</a></li>
+            <li><a href="contact.html">Contact Us!</a></li>
+        </ul>
+    </nav>
+    <h2>Contact Us!</h2>
+    <p>Have some questions? Fill out the form below and we will try our best to reply as soon as possible!</p>
+    <form method="post" action="https://webdevbasics.net/scripts/javajam8.php">
+        <label for="name">Name: <input type="text" name="name" id="name" required></label><br><br>
+        <label for="myEmail">Email: <input type="text" name="myEmail" id="myEmail" required></label><br><br>
+        <label for="myQuestion">Question(s): </label><br>
+        <textarea name="myQuestion" id="myQuestion" cols="60" rows="5" required></textarea><br>
+        <input type="submit" value="Submit" id="mySubmit">
+    </form>
+    <p>Enter your email below to subscribe to our newsletter!</p>
+    <form>
+        <form method="post" action="https://webdevbasics.net/scripts/javajam8.php">
+            <label for="newletter">Email: <input type="text" name="newsletter" id="myEmail" required></label><br><br>
+    </form>
+    <footer>
+        Copyright &copy; 2023 Vancouver Guides<br>
+        <a href="mailto:vancouver.guide@gmail.com">vancouver.guide@gmail.com</a>
+    </footer>
+</body>
+</html>

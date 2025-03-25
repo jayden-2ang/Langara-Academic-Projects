@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room 2</title>
+    <link rel="stylesheet" href="styles/room2.css">
+</head>
+<body>
+    <h1>Welcome to Room 2</h1>
+    <div id="room2">
+        <img src="images/couch.png" id="couch">
+        <img src="images/Book.png" id="book">
+        <img src="images/tble.png" id="table">
+        <img src="images/flower.png" id="flower">
+        <img src="images/carpet.png" id="carpet">
+    </div>
+   
+    <input type="button" value="Hint" id="hint">
+    <br>
+    <br>
+    <h3>Enter the 4 digit Code:</h3>
+   
+    <div id="keyPad">
+        <input type="text" id="code"><br>
+        <input type="button" value="1" onclick="code.value += '1' " id="number">
+        <input type="button" value="2" onclick="code.value += '2' " id="number">
+        <input type="button" value="3" onclick="code.value += '3' " id="number"><br>
+        <input type="button" value="4" onclick="code.value += '4' " id="number">
+        <input type="button" value="5" onclick="code.value += '5' " id="number">
+        <input type="button" value="6" onclick="code.value += '6' " id="number"><br>
+        <input type="button" value="7" onclick="code.value += '7' " id="number">
+        <input type="button" value="8" onclick="code.value += '8' " id="number">
+        <input type="button" value="9" onclick="code.value += '9' " id="number"><br>
+        <input type="button" value="0" onclick="code.value += '0' " id="number">
+        <input type="button" value="Enter" id="enter"><br>
+    </div>
+    <script src="scripts/room2.js"></script>
+</body>
+</html>

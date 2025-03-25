@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape Room 1</title>
+    <link rel="stylesheet" href="styles/room1.css">
+</head>
+<body>
+    <h1>Project: Escape Room</h1>
+    <div id="room1">
+        <img src="images/bed.png" id="bed">
+        <img src="images/chair.PNG" id="chair">
+        <img src="images/deskk.png" id="desk">
+        <img src="images/door.png" id="door">
+        <img src="images/light.png" id="light">
+        <img src="images/nightstand.png" id="stand">
+        <img src="images/picture.png" id="pic">
+    </div>
+    <br>
+    <input type="button" width="30px" value="Hint" id="hint">
+    <br>
+    <br>
+    <p>Enter the 4 digit Code:</p>
+    <div id="keyPad">
+        <input type="text" id="code"><br>
+        <input type="button" value="1" id="number" onclick="code.value += '1' ">
+        <input type="button" value="2" id="number" onclick="code.value += '2' ">
+        <input type="button" value="3" id="number" onclick="code.value += '3' "><br>
+        <input type="button" value="4" id="number" onclick="code.value += '4' ">
+        <input type="button" value="5" id="number" onclick="code.value += '5' ">
+        <input type="button" value="6" id="number" onclick="code.value += '6' "><br>
+        <input type="button" value="7" id="number" onclick="code.value += '7' ">
+        <input type="button" value="8" id="number" onclick="code.value += '8' ">
+        <input type="button" value="9" id="number" onclick="code.value += '9' "><br>
+        <input type="button" value="0" id="number" onclick="code.value += '0' ">
+        <input type="button" value="Enter" id="enter">
+    </div>
+    <script src="scripts/room1.js"></script>
+</body>
+</html>
